@@ -1,5 +1,5 @@
-pins==0.8.4
-python-dotenv==1.0.1
-rsconnect-python==1.22.0
-scikit-learn==1.4.1.post1
-vetiver==0.2.4
+pins==0.9.1
+python-dotenv==1.2.2
+rsconnect-python==1.28.2
+scikit-learn==1.8.0
+vetiver==0.2.6

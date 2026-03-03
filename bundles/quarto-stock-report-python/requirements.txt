@@ -1,11 +1,11 @@
 # jupyter
-notebook==7.1.1
-qtconsole==5.5.1
+notebook==7.5.4
+qtconsole==5.7.1
 jupyter-console==6.6.3
-nbconvert==7.16.5
-ipykernel==6.29.3
-ipywidgets==8.1.2
+nbconvert==7.17.0
+ipykernel==7.2.0
+ipywidgets==8.1.8
 
-matplotlib==3.10.1
-pandas==2.2.3
-yfinance==0.2.65
+matplotlib==3.10.8
+pandas==3.0.1
+yfinance==1.2.0
