@@ -5,6 +5,9 @@ output: blastula::blastula_email
 
 ```{r include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(formattable)
+library(ggthemes)
+library(ggplot2)
 ```
 
 Hello Team,
