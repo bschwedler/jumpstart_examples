@@ -180,7 +180,7 @@ write.xlsx(portfolio_selected, file = portfolio_file)
 ```{r, echo = FALSE}
 # have the report send out an email with 
 # important results included in-line
-render_connect_email(input = "portfolio-report-email.Rmd") %>%
+render_connect_email(input = "portfolio-report-email.Rmd", envir = environment()) %>%
   attach_connect_email(
     subject = sprintf("%s portfolio Sortino report",params$portfolioName),
     attach_output = TRUE,
