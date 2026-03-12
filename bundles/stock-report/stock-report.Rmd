@@ -127,7 +127,7 @@ subject <- sprintf("TSLA is %s today by $%g!",
 # If the change is above a certain threshold, send an email to stake holders
 # with key results embedded directly in the email
 if (abs(diff) > 0.5) {
-  render_connect_email(input = "stock-report-email.Rmd") %>%
+  render_connect_email(input = "stock-report-email.Rmd", envir = environment()) %>%
   attach_connect_email(
     subject = subject,
     attach_output = TRUE,
